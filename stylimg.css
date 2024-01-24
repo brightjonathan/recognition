@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1B1B1D;
+  }
+
+   /* Style for the div acting as an advanced text area */
+   .advanced-textarea {
+    width: 500px;
+    height: 250px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    color: #fff;
+    border-radius: 5px;
+    line-height: 1.5;
+    font-size: 14px;
+    resize: vertical; /* Allows vertical resizing */
+    overflow-y: auto; /* Adds a vertical scrollbar if the content overflows */
+  }
+
+  /* Optional: Style for placeholder text */
+  .advanced-textarea::placeholder {
+    color: #aaa;
+  }
+
+  /* Style for the recording button */
+  .recording {
+    display: block;
+    margin: 10px;
+    margin-top: 10px; /* Adjust the margin to your preference */
+    background-color: #fff;
+    color: black;
+    border: none;
+    cursor: pointer;
+    padding: 12px 30px;
+    border: none;
+    font-size: 1rem;
+    border-radius: 6px;
+    margin-top: 38px;
+    font-weight: 500;
+    transition: 0.2s ease;
+  }
